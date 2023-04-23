@@ -1,19 +1,12 @@
 <template>
   <v-app>
-    Todo
+    <navbarComponent/>
+    <router-link to="/"></router-link> |
+    <!-- <router-link to="/about">About</router-link> -->
+    <router-view/>
   </v-app>
 </template>
 
-<script>
-
-export default {
-  name: 'App',
-
-  components: {
-  },
-
-  data: () => ({
-    //
-  }),
-}
+<script setup>
+import navbarComponent from "./components/navbarComponent.vue";
 </script>
