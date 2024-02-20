@@ -1,6 +1,6 @@
 <template>
   <v-card class="mx-auto my-auto" title="User Registration" width=400>
-    <v-form v-model="valid">
+    <v-form v-model="valid">gf
       <v-container>
         <v-text-field
           v-model="firstname"
